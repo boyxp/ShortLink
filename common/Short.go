@@ -22,7 +22,7 @@ func (S Short) Hash(num int64) string {
 }
 
 func (S Short) Convert(hash string) int {
-	if len(hash)<5 {
+	if len(hash)<4 {
 		return -1
 	}
 
