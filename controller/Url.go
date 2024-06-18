@@ -46,7 +46,7 @@ func (U *Url) Gen(url string, _pwd string, _expire string) any {
 func (U *Url) Open(hash string) {
 	id := common.Short{}.Convert(hash)
 
-	if id==0 {
+	if id<0 {
 		exception.Throw("连接格式错误", 2002)
 	}
 
