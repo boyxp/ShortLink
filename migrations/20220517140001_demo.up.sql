@@ -1,6 +1,0 @@
-CREATE TABLE IF  NOT EXISTS demo(
-   uid int(10) unsigned NOT NULL AUTO_INCREMENT,
-   user VARCHAR(100) NOT NULL,
-   password VARCHAR(40) NOT NULL,
-   PRIMARY KEY ( uid )
-);

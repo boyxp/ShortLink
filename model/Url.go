@@ -3,7 +3,7 @@ package model
 import "github.com/boyxp/nova/database"
 
 //简单模型，直接操作表
-var User = database.Model{"demo"}
+var Url = database.Model{"url"}
 
 /*
 //复杂模型，继承附加方法
